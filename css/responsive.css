@@ -1,0 +1,45 @@
+/* Tablet */
+
+@media (max-width: 1000px) {
+  /* .faq-list {
+    flex-wrap: wrap;
+  }
+  .faq-list-item {
+    width: 50%;
+  } */
+
+}
+
+@media (max-width: 670px) {
+  /* Set the faq-direction of .faq-list */
+  /* .faq-list {
+    flex-direction: column;
+  }
+  .faq-list-item {
+    margin: 0 auto;
+  }
+  .features {
+    flex-direction: column;
+  }
+  .feature {
+    margin:0 auto;
+    width: 100%;
+  } */
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a{
+    display: block;
+    border-bottom: 2px solid #ffffff;
+    margin:0;
+  }
+  #toggle:checked ~ .menu{
+    display: block;
+  }
+}
